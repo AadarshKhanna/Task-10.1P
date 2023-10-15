@@ -1,0 +1,52 @@
+/* Add this CSS to your stylesheets */
+.nava {
+    background-color: #282c35; /* Background color for the container */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .wrapw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .foot-text {
+    color: #fff; /* Text color */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 2px solid #007BFF; /* Border color for the input */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  input[type="email"]::placeholder {
+    color: #999; /* Placeholder text color */
+  }
+  
+  .foot-button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .foot-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
